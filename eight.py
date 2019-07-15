@@ -1,5 +1,3 @@
-q=int(input())
-b=0
-for j in range(n+1):
-   b+=q
-print(b)
+d=int(input())
+e=int((d*(d+1))/2)
+print((e))
