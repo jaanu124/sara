@@ -1,2 +1,4 @@
-m=tuple(map(int,input().split()))
-print(m[0]**m[1]) 
+q,m=input().split()
+q=int(q)
+m=int(m)
+print(q**m)
