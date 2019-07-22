@@ -1,0 +1,10 @@
+W=int(input())
+if W>1:
+    for i in range(2,W):
+        if W%i==0:
+            print("no")
+            break
+    else:
+        print("yes")
+else:
+    print("no")
